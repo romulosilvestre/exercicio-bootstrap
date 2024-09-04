@@ -1,0 +1,21 @@
+input{
+     height:50px;
+}
+#caixa-principal{
+    background-color: aliceblue;
+    /*box-shadow: 1px 1px 1px gray;*/
+}
+img{
+    width: 48px;
+    height: 48px;
+}
+  /* Define a borda preta para os inputs */
+.preto{
+    border: 2px solid black;
+    outline: none;
+}
+
+/* Ao focar (clicar) no input, a borda fica azul */
+.azul input:focus {
+    border: 2px solid blue;
+}
